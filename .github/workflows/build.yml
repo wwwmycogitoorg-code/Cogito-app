@@ -33,10 +33,14 @@ jobs:
       - name: Copy google-services.json
         run: cp google-services.json android/app/google-services.json
 
-      - name: Add Google services plugin
+      - name: DEBUG - Show gradle files
         run: |
-          sed -i '/id("com.android.application")/a\    id("com.google.gms.google-services") version "4.4.2" apply false' android/build.gradle.kts || true
-          echo 'id("com.google.gms.google-services")' >> /tmp/plugin_marker.txt
+          echo "=== Fichiers dans android/ ==="
+          ls -la android/
+          echo "=== Contenu build.gradle (racine) ==="
+          cat android/build.gradle.kts 2>/dev/null || cat android/build.gradle 2>/dev/null
+          echo "=== Contenu build.gradle (app) ==="
+          cat android/app/build.gradle.kts 2>/dev/null || cat android/app/build.gradle 2>/dev/null
 
       - name: Sync Capacitor
         run: npx cap sync android
