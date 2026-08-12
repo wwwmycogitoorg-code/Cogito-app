@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "316380755948",
+    "project_id": "cogito-63181",
+    "storage_bucket": "cogito-63181.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316380755948:android:a5324e96d46629e30532c9",
+        "android_client_info": {
+          "package_name": "Com.cogito.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN6A_npWXK3yoeie0pFG7W51PAzJ_z-z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316380755948:android:413ffbc9940330360532c9",
+        "android_client_info": {
+          "package_name": "com.cogito.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN6A_npWXK3yoeie0pFG7W51PAzJ_z-z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
