@@ -1,0 +1,12 @@
+{
+  "appId": "com.cogito.app",
+  "appName": "Cogito",
+  "webDir": "www",
+  "server": {
+    "url": "https://joseph7.pythonanywhere.com",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}
